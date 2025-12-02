@@ -8,9 +8,9 @@ import os
 
 # Load verification settings from environment
 IS_VERIFY = os.environ.get("IS_VERIFY", "False").lower() in ("true", "1", "yes")
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "353689935e1e4ac6c70ba88c7e6e71dc6fe1e8c0")
-HOW_TO_VERIFY = os.environ.get('HOW_TO_VERIFY', "https://t.me/mntgxo/22")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "inshorturl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "a6f9851cf2f577aa96f63542f7d3a6be62ae32d4")
+HOW_TO_VERIFY = os.environ.get('HOW_TO_VERIFY', "https://t.me/tmm_bots/263")
 
 # MongoDB setup
 mongo_client = AsyncIOMotorClient(DATABASE.URI)
